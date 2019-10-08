@@ -60,6 +60,9 @@
 #tel{
     display: none;
 }
+#footerdesk{
+    display: none;
+}
     
     #logo{
         margin-left: 35px;
@@ -361,12 +364,24 @@
 #leiaMais{
     display: none;
 }
-/*
+
 #links{
     width: 300px;
-    display: none
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 30px;
+    justify-content: space-around;
 }
-*/
+#links a{
+    text-decoration: none;
+    color: #8F909E;
+}
+#links a:hover{
+    color: #004A99;
+}
 #voltar{
     display: none;
 }
@@ -403,8 +418,15 @@
 #cabecalho{
     height: 130px;
 }
+#content1 p{
+    margin-left: 367px; 
+}
+#footermobile{
+    display: none;
+}
 #textodesk{
     margin-top: -20px;
+
 }
 #content{
     margin-left: 324px;
@@ -492,6 +514,43 @@
 #faceIcon{
     margin-left: 325px;
 }
+/* .row{
+        display: flex;
+        flex-direction: row;
+} */
+.institucional, .sobrenos, .ajudaesup, .campanhas, .contato{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.sobrenos, .ajudaesup, .campanhas, .contato{
+    margin-left: 126px;
+}
+.institucional{
+    margin-left: 340px;
+}
+#footermain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.strong{
+    color: #0C0D2C;
+    font-size: 18px; 
+}
+.red{
+    color: #ED1C24;
+}
+.aviso{
+color: #8F909E;
+}
+.aviso p{
+    font-size: 12px;
+}
+
 .menuicon{
     position: absolute;
     left: 70px;
