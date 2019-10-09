@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta description="Pagina institucional - sobre nós savegnago">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quem somos</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="assets/script.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap"
         rel="stylesheet">
@@ -33,6 +36,11 @@
                 <img src="img/profile.png" id="profile">
                 <img src="img/tel.png" id="tel">
                 <img src="img/retirar.png" id="retirar">
+                <img src="img/fundoverde.png" class="checkout">
+                <img src="img/supermarket.png" class="market">
+                <p class="amount">12</p>
+                <p class="valor">R$ 451,00</p>
+
                 <hr id="linha">
                 <a href="#"><img src="img/back.png" id="voltar"> </a>
 
@@ -41,7 +49,7 @@
 
 
                     <p id="navp">TODOS OS DEPARTAMENTOS<img src="img/dropdown.png" id="dropdown"></p>
-                    <ul>
+                    <ul id="menudesk">
                         <li><a>
                                 <div><img src="img/horti.png" class="menuicon"></div>Hortifruti<img src="img/ir.png"
                                     class="ir">
@@ -129,7 +137,10 @@
                         <p>Missão, Visão e Valores</p>
                     </div>
                     <div class="mais">
-                        <a href="#"><img class="plusButton" src="img/plus.png"></a>
+                    <a><img class="plusButton" src="img/plus.png" id="plus1"></a>
+                    </div>
+                    <div id="contentbox1">
+                        <img src="img/circuit.png">
                     </div>
                 </div>
 
@@ -139,8 +150,11 @@
                         <p>Nossa História</p>
                     </div>
                     <div class="mais">
-                        <a href="#"><img class="plusButton" src="img/plus.png"></a>
+                        <a><img class="plusButton" src="img/plus.png" id="plus2"></a>
                     </div>
+                    <div id="contentbox2">
+                            <img src="img/circuit.png">
+                        </div>
                 </div>
 
 
@@ -149,8 +163,11 @@
                         <p>Responsabilidade Social, <br>Ambiental e projetos</p>
                     </div>
                     <div class="mais">
-                        <a href="#"><img class="plusButton" src="img/plus.png"></a>
+                        <a><img class="plusButton" src="img/plus.png" id="plus3"></a>
                     </div>
+                    <div id="contentbox3">
+                            <img src="img/circuit.png">
+                        </div>
                 </div>
 
                 <div id="email">
@@ -337,9 +354,8 @@
                         </div>
                     </div>
                 </div>
-                    <br><br><br><BR>
-
-                    <!-- <div class="aviso">
+                <br>
+                    <div class="aviso">
                         <p>A venda e o consumo de bebidas alcoólicas são proibidas para menores de 18 anos. Bebida
                             Alcoólica pode causar dependência Quimica e, em excesso, Provoca graves males à saúde. Beba
                             com moderação.
@@ -353,11 +369,32 @@
                             – I CDC, Lei nº. 8.078 de 11/09/90 e artigo 12 – III Decreto nº. 2.181 de 20/03/97.</p>
                     </div>
                 <div id="ferramentas">
-                    <p>FORMAS DE PAGAMENTO</p> <p>SITE SEGURO</p><br><br>
-                    <img src="img/payments.png"> <img src="img/vtex.png"><img src="img/ouro.png"><img src="img/lets.png">;
-                
-                </div> -->
+                    <div class="column1">
+                        <p class="strong">FORMAS DE PAGAMENTO</p>
+                        <img src="img/payments.png">
+                    </div>
+                    <div class="column1">
+                        <p class="strong">SITE SEGURO</p>
+                        <img  src="img/vtex.png">
+                        <img src="img/ouro.png" class="ouro">
+                        <img src="img/lets.png" class="encrypt">
+                    </div>
+                </div>
             </div>
+            <hr class="linhafooter">
+            <div class="copyright">
+                    <p class="right">
+
+                            ©2019 SAVEGNAGO - todos os direitos reservados.</br>
+            Savegnago Supermercados Ltda. - cnpj: 71.322.150/0039-32. - endereço: Avenida Nossa Senhora Aparecida, 2021 - cep: 14170-150 | Sertãozinho (SP)
+                        </p>
+                        <div class="mechs">
+                            <img src="img/devwith.png" class="dev"><img src="img/rocketflow.png" class="foguetinho"><img src="img/corebiz.png" class="core">    
+                            <p class="poweredby">powered by</p> <img src="img/vtexmini.png" id="mini">
+                        </div>
+
+            </div>
+
         </footer>
     </div>
 </body>
