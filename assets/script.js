@@ -18,5 +18,18 @@ $("#dropdown").click(function(){
     $("#contentbox3").toggle("fast");
     
   });
+}else{
+  $("#plus1").click(function(){
+    $("#contentbox1").toggle("fast");
+    
+  });
+  $("#plus2").click(function(){
+    $("#contentbox2").toggle("fast");
+    
+  });
+  $("#plus3").click(function(){
+    $("#contentbox3").toggle("fast");
+    
+  });
 }
 });
