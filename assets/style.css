@@ -15,34 +15,34 @@
     .deskbox3{
         display: none;
     }
-    #menudesk {
+    .menudesk {
         display: none;
     }
-    #linha {
+    .linha {
         margin-top: 0px;
     }
-    #buscarazul {
+    .buscarazul {
         display: none;
     }
-    #retirar {
+    .retirar {
         display: none;
     }
-    #fundoazul {
+    .fundoazul {
         display: none;
     }
-    #busque {
+    .busque {
         display: none;
     }
-    #links {
+    .links {
         display: none
     }
-    #check {
+    .check {
         display: none;
     }
     .copyright {
         display: none;
     }
-    #fundobranco {
+    .fundobranco {
         display: none;
     }
     .market,
@@ -54,39 +54,39 @@
     .circuit{
         display: none;
     }
-    #contentbox1,
-    #contentbox2,
-    #contentbox3 {
+    .contentbox1,
+    .contentbox2,
+    .contentbox3 {
         display: none;
     }
-    #textodesk {
+    .textodesk {
         display: none;
     }
-    #cartaovermelho {
+    .cartaovermelho {
         display: none;
     }
     .linhafooter {
         display: none;
     }
-    #navp {
+    .navp {
         display: none;
     }
-    #check {
+    .check {
         display: none;
     }
-    #profile {
+    .profile {
         display: none;
     }
-    #tel {
+    .tel {
         display: none;
     }
-    #footerdesk {
+    .footerdesk {
         display: none;
     }
-    #logo {
+    .logo {
         margin-left: 35px;
     }
-    #leiaMais {
+    .leiaMais {
         background-color: #F4F4F4;
         margin-left: 110px;
         border: none;
@@ -94,58 +94,57 @@
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 16px;
     }
 
-    #content1 {
+    .content1 {
         background-color: #F4F4F4;
     }
-    #carrinho {
+    .carrinho {
         margin-left: 310px;
         top: 0px;
         position: absolute;
     }
-    #vertical-menu {
+    .vertical-menu {
         display: none;
     }
-    #search {
+    .search {
         position: absolute;
         top: 63px;
         margin-left: -37px;
     }
-    #filter {
+    .filter {
         top: 63px;
         margin-left: 12px;
         position: absolute;
     }
-    #procurar {
+    .procurar {
         margin-top: 9px;
         width: 310px;
         height: 50px;
-        border-color: #EAEAEA
+        border-color: #EAEAEA;  
     }
-    #content1 img {
+    .content1 img {
         width: 340px;
     }
-    #content1 p {
+    .content1 p {
         font-size: 13px;
     }
-    #voltar {
+    .voltar {
         margin-top: 15px;
     }
-    #box1 img {
+    .box1 img {
         margin-bottom: 10px;
     }
-    #content1 h1,
+    .content1 h1,
     p,
     img {
         margin-left: 10px;
         margin-right: 10px;
     }
-    #box1,
-    #box2,
-    #box3 {
+    .box1,
+    .box2,
+    .box3 {
         font-size: 16px;
         text-align: left;
         margin-left: 16px;
@@ -155,10 +154,10 @@
         flex-direction: row;
         width: 320px;
     }
-    #box4,
-    #box5,
-    #box6,
-    #box7 {
+    .box4,
+    .box5,
+    .box6,
+    .box7 {
         font-size: 20px;
         text-align: left;
         margin-left: 16px;
@@ -179,14 +178,14 @@
     .footerTitle {
         font-size: 22px;
     }
-    #infos img {
+    .infos img {
         width: 340px;
     }
     .plusButton {
         margin-left: 280px;
     }
-    #box1,
-    #box2 {
+    .box1,
+    .box2 {
         border-bottom: 1px rgba(112, 112, 112, 0.3) solid;
     }
     .awareness {
@@ -195,69 +194,69 @@
     .awareness p {
         font-size: 12px;
     }
-    #imgFooter {
+    .imgFooter {
         margin-left: 0px;
     }
-    #ouro,
-    #lets {
+    .ouro,
+    .lets {
         margin-left: 20px;
     }
-    #infos hr {
+    .infos hr {
         opacity: 0.3;
     }
-    #copyright p {
+    .copyright p {
         font-size: 12px;
         font-family: 'Lato', sans-serif;
     }
-    #mechanics #devwith {
+    .mechanics .devwith {
         width: 147px;
         height: 16px;
     }
-    #mechanics #rocketflow {
+    .mechanics .rocketflow {
         width: 10px;
         height: 16px;
         z-index: 10;
         margin-left: -50px;
     }
-    #mechanics #powered {
+    .mechanics .powered {
         width: 122px;
         height: 16px
     }
-    #mechanics #corebiz {
+    .mechanics .corebiz {
         margin-bottom: 2px;
         width: 59px;
         margin-left: 16px;
         height: 12px;
     }
-    #imgFooter #vtex {
+    .imgFooter .vtex {
         width: 95px;
         height: 64px;
     }
-    #imgFooter #ouro {
+    .imgFooter .ouro {
         width: 61px;
         height: 58px;
     }
-    #imgFooter #lets {
+    .imgFooter .lets {
         width: 70px;
         height: 54px;
     }
-    #icones {
+    .icones {
         background-color: #004A99;
         height: 60px;
     }
-    #faceIcon,
-    #twittIcon,
-    #youtIcon,
-    #instaIcon {
+    .faceIcon,
+    .twittIcon,
+    .youtIcon,
+    .instaIcon {
         margin-left: 15px;
         margin-bottom: 20px;
     }
-    #setaCima {
+    .setaCima {
         margin-left: 86px;
         width: 60px;
         height: 60px;
     }
-    #email {
+    .email {
         display: none;
     }
 }
@@ -272,16 +271,16 @@
         font-family: 'Lato', sans-serif;
         height: auto;
     }
-    #menu {
+    .menu {
         display: none;
     }
-    #vertical-menu a {
+    .vertical-menu a {
         color: black;
         display: block;
         padding: 12px 12px 12px 72px;
         text-decoration: none;
     }
-    #navp {
+    .navp {
         position: absolute;
         width: 303px;
         text-align: center;
@@ -295,28 +294,28 @@
         align-items: center;
         justify-content: center;
     }
-    #vertical-menu {
+    .vertical-menu {
         width: 324px;
         position: absolute;
     }
-    #vertical-menu li {
+    .vertical-menu li {
         list-style: none;
         border: 1px solid rgba(112, 112, 112, 0.1);
     }
-    #vertical-menu ul {
+    .vertical-menu ul {
         top: -330px;
         width: 324px;
         margin-left: -40px;
         position: absolute;
     }
-    #vertical-menu a:hover {
+    .vertical-menu a:hover {
         background-color: #ccc;
     }
-    #vertical-menu a.active {
+    .vertical-menu a.active {
         text-align: center;
         font-size: 16px
     }
-    #logo {
+    .logo {
         width: 225px;
         height: 34px;
         margin-left: 34px;
@@ -324,10 +323,10 @@
         margin-bottom: 13px;
         margin-right: 64px;
     }
-    #carrinho {
+    .carrinho {
         display: none;
     }
-    #procurar {
+    .procurar {
         width: 461px;
         height: 45px;
         margin-left: 5px;
@@ -335,27 +334,27 @@
         position: relative;
         top: -25px;
     }
-    #search {
+    .search {
         position: absolute;
         top: 28px;
         margin-left: -445px;
     }
-    #fundoazul {
+    .fundoazul {
         position: relative;
         top: -7px;
     }
-    #buscarazul {
+    .buscarazul {
         color: white;
         position: relative;
         margin-left: 822px;
         top: -74px;
     }
-    #fundobranco {
+    .fundobranco {
         position: relative;
         top: -120px;
         margin-left: 912px;
     }
-    #busque {
+    .busque {
         position: relative;
         top: -172px;
         margin-left: 969px;
@@ -379,7 +378,7 @@
         top: -369px;
         margin-left: 1800px;
     }
-    #linha {
+    .linha {
         display: none;
     }
     .amount,
@@ -391,13 +390,13 @@
         top: -293px;
         margin-left: 1652px;
     }
-    #linha {
+    .linha {
         display: none;
     }
-    #leiaMais {
+    .leiaMais {
         display: none;
     }
-    #links {
+    .links {
         width: 300px;
         display: flex;
         flex-direction: row;
@@ -407,14 +406,14 @@
         margin-left: 30px;
         justify-content: space-around;
     }
-    #links a {
+    .links a {
         text-decoration: none;
         color: #8F909E;
     }
-    #links a:hover {
+    .links a:hover {
         color: #004A99;
     }
-    #voltar {
+    .voltar {
         display: none;
     }
 
@@ -427,9 +426,9 @@
         font-size: 12px;
         color: #8F909E;
     }
-    #contentbox1,
-    #contentbox2,
-    #contentbox3 {
+    .contentbox1,
+    .contentbox2,
+    .contentbox3 {
         display: none;
     }
     .mechs {
@@ -456,71 +455,71 @@
         margin-left: -95px;
         margin-top: 45px;
     }
-    #mini {
+    .mini {
         margin-left: 240px;
         position: relative;
         margin-bottom: 31px;
         margin-top: -45px;
     }
-    #filter {
+    .filter {
         position: relative;
         top: -220px;
         margin-left: 929px;
     }
-    #check {
+    .check {
         margin-left: 185px;
         position: relative;
         top: -220px;
     }
-    #textomobile {
+    .textomobile {
         display: none;
     }
-    #profile {
+    .profile {
         position: relative;
         top: -220px;
         margin-left: 56px;
     }
-    #tel {
+    .tel {
         position: relative;
         top: -220px;
         margin-left: 56px;
     }
-    #retirar {
+    .retirar {
         position: relative;
         top: -208px;
         margin-left: 81px;
     }
-    #cabecalho {
+    .cabecalho {
         height: 130px;
     }
-    #content1 p {
+    .content1 p {
         margin-left: 367px;
     }
-    #footermobile {
+    .footermobile {
         display: none;
     }
-    #textodesk {
+    .textodesk {
         margin-top: -20px;
     }
-    #content {
+    .content {
         margin-left: 324px;
     }
-    #content1 {
+    .content1 {
         background-color: #F4F4F4;
     }
-    #content1 img {
+    .content1 img {
         float: left;
     }
-    #content {
+    .content {
         width: 1261px;
     }
-    #boxes {
+    .boxes {
         margin-top: 70px;
         font-size: 18px;
     }
-    #box1,
-    #box2,
-    #box3 {
+    .box1,
+    .box2,
+    .box3 {
         border: 1px solid rgba(112, 112, 112, 0.2);
         display: flex;
         flex-wrap: wrap;
@@ -533,13 +532,13 @@
         position: absolute;
         margin-left: 1230px;
     }
-    #email {
+    .email {
         width: 1920px;
         margin-left: -324px;
         background-color: #f4f4f4;
         height: 284px;
     }
-    #mail {
+    .mail {
         width: 240px;
         height: 240px;
         margin-left: 432px;
@@ -547,14 +546,14 @@
         margin-top: 20px;
         margin-right: 110px;
     }
-    #inputs input[type="checkbox"] {
+    .inputs input[type="checkbox"] {
         width: 25px;
         height: 25px;
     }
-    #accept {
+    .accept {
         margin-left: 50px;
     }
-    #inputs input {
+    .inputs input {
         margin-top: 20px;
         width: 300px;
         height: 36px;
@@ -562,27 +561,27 @@
         margin-left: 20px;
         background-color: #FFFFFF;
     }
-    #cartaovermelho {
+    .cartaovermelho {
         margin-top: 70px;
     }
-    #cartaovermelho img {
+    .cartaovermelho img {
         float: left;
     }
-    #icones {
+    .icones {
         margin-top: 30px;
         margin-left: -324px;
         background-color: #004A99;
         width: 1920px;
         height: 61px;
     }
-    #faceIcon,
-    #instaIcon,
-    #twittIcon,
-    #youtIcon {
+    .faceIcon,
+    .instaIcon,
+    .twittIcon,
+    .youtIcon {
         margin-bottom: -25px;
         margin-left: 53PX;
     }
-    #faceIcon {
+    .faceIcon {
         margin-left: 325px;
     }
     .institucional,
@@ -659,39 +658,42 @@
         position: absolute;
         left: 70px;
     }
+    .offer{
+        margin-left: 805px;
+    }
     .ir {
         position: absolute;
         margin-top: 7px;
 
         left: 320px;
     }
-    #dropdown {
+    .dropdown {
         position: absolute;
         left: 270px;
     }
   
-    #setaCima {
+    .setaCima {
         margin-top: -30px;
         margin-left: 1531px;
     }
-    #cartaovermelho p {
+    .cartaovermelho p {
         margin-top: 10px;
         margin-left: 550px;
     }
-    #cartaovermelho #titlecartao {
+    .cartaovermelho .titlecartao {
         margin-left: 0;
     }
-    #ferramentas {
+    .ferramentas {
         display: flex;
     }
     .column1 {
         flex: 50%;
     }
-    #voltar1,
+    .voltar1,
     .cartao {
         display: none;
     }
-    #inputs input[type="submit"] {
+    .inputs input[type="submit"] {
         background-color: #004A99;
         color: white;
     }
@@ -700,7 +702,7 @@
         
     }
 
-    #boxes2 {
+    .boxes2 {
         display: none;
     }
     .encrypt {
