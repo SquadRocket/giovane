@@ -1,8 +1,5 @@
 @media screen and (max-width: 360px) {
-    /* Teste de resposividade
-    body{
-        background-color: blue;
-    }*/
+
     * {
         margin-right: 0;                                                                                                                                                                                             
         margin-left: 0;
@@ -99,6 +96,7 @@
 
     .content1 {
         background-color: #F4F4F4;
+        
     }
     .carrinho {
         margin-left: 310px;
@@ -161,7 +159,6 @@
         font-size: 20px;
         text-align: left;
         margin-left: 16px;
-        width: 322px;
         display: flex;
         flex-wrap: wrap;
         position: relative;
@@ -492,21 +489,24 @@
     }
     .cabecalho {
         height: 130px;
-    }
-    .content1 p {
-        margin-left: 367px;
+    }   
+  
+    .imgmain{
+        margin-right: 24px;
     }
     .footermobile {
         display: none;
     }
     .textodesk {
         margin-top: -20px;
+        margin-right: 336px;
     }
     .content {
         margin-left: 324px;
     }
     .content1 {
         background-color: #F4F4F4;
+        width: 1596px;
     }
     .content1 img {
         float: left;
