@@ -175,6 +175,7 @@
         top: 16px;
         position: absolute;
     }
+
     .footerTitle {
         font-size: 22px;
     }
@@ -708,4 +709,5 @@
     .encrypt {
         margin-top: -5px;
     }
+
 }
