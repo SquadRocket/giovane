@@ -87,13 +87,27 @@
         background-color: #F4F4F4;
         margin-left: 110px;
         border: none;
+        display: block;
         color: #004A99;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
     }
-
+    .leiaMenos {
+        background-color: #F4F4F4;
+        margin-left: 110px;
+        border: none;
+        color: #004A99;
+        padding: 15px 32px;
+        display: none;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .procurar{
+        padding-left: 20px;
+    }
     .content1 {
         background-color: #F4F4F4;
         
@@ -111,6 +125,7 @@
         top: 63px;
         margin-left: -37px;
     }
+
     .filter {
         top: 63px;
         margin-left: 12px;
@@ -128,6 +143,7 @@
     .content1 p {
         font-size: 13px;
     }
+    
     .voltar {
         margin-top: 15px;
     }
@@ -659,6 +675,9 @@
         position: absolute;
         left: 70px;
     }
+    .leiaMenos{
+        display: none;
+    }
     .offer{
         margin-left: 805px;
     }
@@ -667,6 +686,10 @@
         margin-top: 7px;
 
         left: 320px;
+    }
+    .procurar{
+        border-radius: 4px;
+        background-color: #F5F5F5;
     }
     .dropdown {
         position: absolute;
@@ -698,13 +721,15 @@
         background-color: #004A99;
         color: white;
     }
-    .contentbox1{
-        display: flex;
-        
+    #teste{
+        display: none;
     }
 
     .boxes2 {
         display: none;
+    }
+    .procurar{
+        padding-left: 50px;
     }
     .encrypt {
         margin-top: -5px;

@@ -23,8 +23,8 @@
                 <a href="#"><img src="img/menu.png" class="menu"></a>
                 <a href="#"> <img src="img/logo.png" class="logo"></a>
                 <A href="#"><img src="img/carrinho.png" class="carrinho"></A>
-                <input type="search" placeholder="            Faça sua busca aqui..." class="procurar"><label
-                    for="procurar"><img src="img/search.png" class="search"></label><img src="img/fundoazul.png"
+                <input type="search" placeholder="Faça sua busca aqui..." class="procurar" id="procurar"><label
+                    for="procurar"><img src="img/search.png" class="search" id="search"></label><img src="img/fundoazul.png"
                     class="fundoazul">
                 <A href="#">
                     <p class="buscarazul">BUSCAR</p>
@@ -49,8 +49,8 @@
                 <nav class="vertical-menu">
 
 
-                    <p class="navp">TODOS OS DEPARTAMENTOS<img src="img/dropdown.png" id="dropdown"></p>
-                    <ul class="menudesk">
+                    <p class="navp" onclick="slidetoggle()">TODOS OS DEPARTAMENTOS<img src="img/dropdown.png" id="dropdown"></p>
+                    <ul class="menudesk" id="menudesk">
                         <li>
                             <a>
                                 <div><img src="img/horti.png" class="menuicon"></div>Hortifruti<img src="img/ir.png"
@@ -129,7 +129,6 @@
                     As constantes expansões e investimentos da rede a colocam, no quesito faturamento, em primeiro lugar
                     no interior paulista, segundo a Associação Brasileira de Supermercados (ABRAS). E a rede confirma
                     investimento de R$ 300 milhões,
-
                     entre 2019 e 2020, para a abertura de novas lojas. Sempre inovando, o Savegnago Supermercados
                     permite aos seus clientes experiências como o sistema Self Check-Out, em que o consumidor tem a
                     oportunidade de passar e pagar suas compras,
@@ -139,7 +138,6 @@
                     de receber os produtos em suas casas. Além do potencial varejista, a rede Savegnago tem a sua
                     consciência e atuação na responsabilidade social. Está em atividade, em Sertãozinho, a Instituição
                     Aparecidoo Savegnago. Trata-se de uma entidade
-                    
                     sem fins lucrativos, criada em 2008, com o objetivo de oferecer cursos para promover a inclusão
                     cultural de crianças e adolescentes sertanezinos, em condições de vulnerabilidade social, para o
                     desenvolvimento de sua formação artística.
@@ -152,8 +150,12 @@
 
 
                 
-                <button class="leiaMais" type="button" id="mostrarmais">Leia mais</button><br>
-                <button class="leiaMais" type="button" id="mostrarmenos">Leia menos</button>
+                <button class="leiaMais" type="button" id="mostrarmais" onclick="trocabutton(this.id)">Leia mais</button><br>
+           
+                <button class="leiaMenos" type="button" id="mostrarmenos" onclick="trocabutton(this.id)">Leia menos</button>
+      
+
+
                 <p class="textodesk">A rede Savegnago Supermercados é consolidada como a rede forte do interior. A
                     empresa supermercadista nasceu em agosto de 1976, na cidade de Sertãozinho, interior de São Paulo, e
                     em 2019 completou 43 anos. Está presente em 16 cidades do
@@ -190,9 +192,9 @@
                         <p>Missão, Visão e Valores</p>
                     </div>
                     <div class="mais">
-                        <a><img class="plusButton" src="img/plus.png" id="plus1"></a>
+                        <a><img class="plusButton" src="img/plus.png" id="plus1" onclick="togglebox1()"></a>
                     </div>
-                    <div class="contentbox1">
+                    <div class="contentbox1" id="contentbox1">
                         <ul>
                             <li>Missão</li>
                             <p>Gerar valos às pessoas</p>
@@ -225,9 +227,9 @@
                         <p>Nossa História</p>
                     </div>
                     <div class="mais">
-                        <a><img class="plusButton" src="img/plus.png" id="plus2"></a>
+                        <a><img class="plusButton" src="img/plus.png" id="plus2" onclick="togglebox2()"></a>
                     </div>
-                    <div class="contentbox2">
+                    <div class="contentbox2" id="contentbox2">
                         <img src="img/circuit.png" class="circuit">
                         <img src="img/mapamobile.png" class="circuitmobile">
                     </div>
@@ -239,9 +241,9 @@
                         <p>Responsabilidade Social, <br>Ambiental e projetos</p>
                     </div>
                     <div class="mais">
-                        <a><img class="plusButton" src="img/plus.png" id="plus3"></a>
+                        <a><img class="plusButton" src="img/plus.png" id="plus3" onclick="togglebox3()"></a>
                     </div>
-                    <div class="contentbox3">
+                    <div class="contentbox3" id="contentbox3">
                         <div class="mobilebox3">
                             <img src="img/aparecido.png">
                             <p>
