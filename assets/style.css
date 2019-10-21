@@ -281,7 +281,7 @@
         margin-left: 0;
     }
     body {
-        max-width: 1920px;
+        width: 1920px;
         font-family: 'Lato', sans-serif;
         height: auto;
     }
