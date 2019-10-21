@@ -1,11 +1,11 @@
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
 
     * {
         margin-right: 0;                                                                                                                                                                                             
         margin-left: 0;
     }
     body {
-        width: 360px;
+        width: 425px;
         font-family: 'Lato', sans-serif;
         height: auto;
     }
@@ -81,11 +81,11 @@
         display: none;
     }
     .logo {
-        margin-left: 35px;
+        margin-left: 64px;
     }
     .leiaMais {
         background-color: #F4F4F4;
-        margin-left: 110px;
+        margin-left: 150px;
         border: none;
         display: block;
         color: #004A99;
@@ -113,7 +113,7 @@
         
     }
     .carrinho {
-        margin-left: 310px;
+        margin-left: 375px;
         top: 0px;
         position: absolute;
     }
@@ -128,17 +128,17 @@
 
     .filter {
         top: 63px;
-        margin-left: 12px;
+        margin-left: 10px;
         position: absolute;
     }
     .procurar {
         margin-top: 9px;
-        width: 310px;
+        width: 375px;
         height: 50px;
         border-color: #EAEAEA;  
     }
     .content1 img {
-        width: 340px;
+        width: 400px;
     }
     .content1 p {
         font-size: 13px;
@@ -166,7 +166,7 @@
         flex-wrap: wrap;
         position: relative;
         flex-direction: row;
-        width: 320px;
+        width: 370px;
     }
     .box4,
     .box5,
@@ -182,7 +182,7 @@
         width: 320px;
     }
     .cartao img {
-        width: 340px;
+        width: 400px;
     }
     .mais {
         top: 16px;
@@ -196,7 +196,7 @@
         width: 340px;
     }
     .plusButton {
-        margin-left: 280px;
+        margin-left: 340px;
     }
     .box1,
     .box2 {
@@ -266,7 +266,7 @@
         margin-bottom: 20px;
     }
     .setaCima {
-        margin-left: 86px;
+        margin-left: 150px;
         width: 60px;
         height: 60px;
     }
@@ -275,7 +275,7 @@
     }
 }
 
-@media screen and (min-width: 361px) and (max-width:1920px) {
+@media screen and (min-width: 426px) and (max-width:1920px) {
     * {
         margin-right: 0;
         margin-left: 0;
