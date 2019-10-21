@@ -281,7 +281,7 @@
         margin-left: 0;
     }
     body {
-        width: 1920px;
+        max-width: 1920px;
         font-family: 'Lato', sans-serif;
         height: auto;
     }
@@ -671,6 +671,9 @@
     .encrypt {
         margin-left: 38px;
     }
+    .inputs input{
+        padding-left: 10px;
+    }
     .menuicon {
         position: absolute;
         left: 70px;
@@ -699,6 +702,9 @@
     .setaCima {
         margin-top: -30px;
         margin-left: 1531px;
+    }
+    .contentbox1, .contentbox2, .contentbox3{
+        display: none;
     }
     .cartaovermelho p {
         margin-top: 10px;

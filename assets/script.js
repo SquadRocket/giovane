@@ -1,4 +1,3 @@
-
 function slidetoggle(){
   var trocar = document.getElementById("menudesk");
   if (trocar.style.display === "none"){
@@ -67,9 +66,9 @@ function togglebox3(){
 
 
 $(document).ready(function(){
-  $(".contentbox1").hide();
-  $(".contentbox2").hide();
-  $(".contentbox3").hide();
+  // $(".contentbox1").hide();
+  // $(".contentbox2").hide();
+  // $(".contentbox3").hide();
   $("#teste").hide();
 
   $("#mostrarmais").click(function(){
