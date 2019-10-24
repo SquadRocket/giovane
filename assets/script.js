@@ -25,7 +25,7 @@ $(document).ready(function(){
 
   });
   $(".box2").click(function(){
-    $(".contentbox2").slideToggle(700);
+    $(".contentbox2").slideToggle(500);
 
   });
   $(".box3").click(function(){
